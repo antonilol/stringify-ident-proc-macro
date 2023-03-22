@@ -1,0 +1,13 @@
+[package]
+name = "stringify-ident-proc-macro"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "Replacement for the stringify! macro for use in const functions"
+homepage = "https://github.com/antonilol/stringify-ident-proc-macro"
+repository = "https://github.com/antonilol/stringify-ident-proc-macro"
+keywords = ["stringify"]
+categories = ["no-std"]
+
+[lib]
+proc-macro = true
